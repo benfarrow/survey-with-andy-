@@ -1,0 +1,84 @@
+
+
+#background {
+        background-image: linear-gradient(to bottom right, rgb(0, 204, 255), rgb(153, 0, 255));
+        width: 400px;
+        height: 400px;  
+        padding: 50px;
+        border: 5px solid black; 
+  }
+
+#question {
+    background-image: linear-gradient(to bottom right, rgb(251, 255, 0), rgb(255, 0, 242));
+    text-align: center;
+    width: 100px;
+    height: 30px;  
+    padding: 10px;
+    border: 3px solid black;
+    position: relative;
+    left: 160px;
+    bottom: 480px;     
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+#score {
+    background-image: linear-gradient(to bottom right, rgb(251, 255, 0), rgb(255, 0, 242));
+    text-align: center;
+    width: 100px;
+    height: 30px;  
+    padding: 10px;
+    border: 3px solid black;
+    position: relative;
+    left: 160px;
+    bottom: 150px; 
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;   
+  }
+
+  .buttons {
+    border: 3px solid black; 
+    color:  rgb(0, 0, 0);
+    padding: 50px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+
+  /* parent button class  */
+
+  #answer1 {
+    background-color: #FFC300;
+    position: relative;
+    left: 40px;
+    bottom: 505px;
+  }
+
+  #answer2 {
+    background-color: #FF5733;
+    position: relative;
+    left: 40px;
+    bottom: 505px;
+  }
+
+  #answer3 {
+    background-color: #900C3F;
+    position: relative;
+    left: -350px;
+    bottom: 370px;
+  }
+
+  #answer4 {
+    background-color: #C70039;
+    position: relative;
+    left: -350px;
+    bottom: 370px;
+  }
+
+/* children button id's */
+
