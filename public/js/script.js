@@ -21,7 +21,7 @@
     var c18score = 0;
     var c19score = 0;
     var c20score =0;
-​
+
 // again i dont think we need an individual score for each one, just a total, however only
 // problem with this method is we would need something that stops people clicking multiple
 // buttons to increase maxscore. This would also let people change there answer, in which case
@@ -39,13 +39,13 @@ function c1check1(){
     return c1score =1
 }
 function c1check2(){
-    return c1score =2
+     return c1score =2
 }
 function c1check3(){
-    return c1score =3
+     return c1score =3
 }
 function c1check4(){
-    return c1score =4
+     return c1score =4
 }
 
 function c2check1(){
