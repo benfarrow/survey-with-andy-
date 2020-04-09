@@ -22,6 +22,11 @@
     var c19score = 0;
     var c20score =0;
 
+    var analytical=0;
+    var amiable=0;
+    var expressive=0;
+    var driver=0;
+
 // again i dont think we need an individual score for each one, just a total, however only
 // problem with this method is we would need something that stops people clicking multiple
 // buttons to increase maxscore. This would also let people change there answer, in which case
@@ -36,7 +41,7 @@
 // ​
 //         if (choices[i].value == 'c1') {
 function c1check1(){
-    return c1score =1
+    analytical+=1;
 }
 function c1check2(){
      return c1score =2
@@ -265,6 +270,11 @@ document.getElementById("score").innerHTML="Your social style is Analytical!"
   document.getElementById("score").innerHTML="Your social style is Expressive!"
   if (maxscore >=32 && maxscore <=40)
   document.getElementById("score").innerHTML="Your social style is Driver!" 
+
+document.getElementById("anaScore").innerHTML=analytical
+document.getElementById("amiScore").innerHTML=amiable
+document.getElementById("expScore").innerHTML=expressive
+document.getElementById("driScore").innerHTML=driver
 
   // program the reset button
 //   function resetAnswer() {
